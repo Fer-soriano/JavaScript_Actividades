@@ -25,7 +25,7 @@ console.log(y += x);
 console.log(x != y);
 
 
-/*Ejemplo de clase 
+/*Ejemplo de clase FOR
  //prompt pide datos al usuario 
 let alumnos = 1;
 
@@ -34,4 +34,23 @@ for(alumnos; alumnos <= 10; alumnos++){
     console.log("El alumno se llama  " + nombrealumno + " va hacer la consulta " + alumnos )
     alert (`El alumno se llama: ${nombrealumno} va hacer la consulta ${alumnos}`)
 }
+
 */
+/*Ejemplo de clase WHILE
+let nombreusuario = prompt ("Hola como te llamas?").toUpperCase();
+
+while(nombreusuario != "SALIR"){
+    alert ("Hola " + nombreusuario + "\nPara cerrar escribir 'SALIR.' ");
+    nombreusuario = prompt ("ingresa tu nombre nuevamente o escribir SALIR").toUpperCase();
+}
+*/
+
+/*Ejemplo de clase DO-WHILE 
+let nombre2 = false;
+
+do{
+    nombre2 = prompt("¿Comó te llamas ?");
+    alert("Hola " + nombre2);
+}while(nombre2);
+*/
+
