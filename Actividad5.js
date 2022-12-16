@@ -14,6 +14,10 @@ let falso = false;
 //undefined 
 let indefinido = undefined;
 
+console.log(nombre);
+console.log(megusta);
+console.log(edad)
+
 
 //interpolación de texto:
 console.log(`Hola mundo, mi nombre es ${nombre} y tengo ${edad} años, me gustan ${megusta}`);
@@ -23,6 +27,10 @@ console.log(x*y);
 console.log(y += x);
 
 console.log(x != y);
+
+
+
+
 
 
 /*Ejemplo de clase FOR
